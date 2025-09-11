@@ -4,6 +4,6 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="top.twindworld.infrastructure.po.Activity"/>
+        <package name="top.twindworld.lottery.infrastructure.po.Activity"/>
     </typeAliases>
 </configuration>
