@@ -1,7 +1,7 @@
 package top.twindworld.lottery.domain.strategy.repository.impl;
 
 import org.springframework.stereotype.Component;
-import top.twindworld.lottery.domain.startegy.model.aggregates.StrategyRich;
+import top.twindworld.lottery.domain.strategy.model.aggregates.StrategyRich;
 import top.twindworld.lottery.domain.strategy.repository.IStrategyRepository;
 import top.twindworld.lottery.infrastructure.dao.IAwardDao;
 import top.twindworld.lottery.infrastructure.dao.IStrategyDao;

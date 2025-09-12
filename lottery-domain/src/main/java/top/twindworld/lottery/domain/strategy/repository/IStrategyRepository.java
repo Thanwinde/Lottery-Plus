@@ -1,7 +1,7 @@
 package top.twindworld.lottery.domain.strategy.repository;
 
 
-import top.twindworld.lottery.domain.startegy.model.aggregates.StrategyRich;
+import top.twindworld.lottery.domain.strategy.model.aggregates.StrategyRich;
 import top.twindworld.lottery.infrastructure.po.Award;
 
 public interface IStrategyRepository {

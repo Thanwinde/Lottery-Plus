@@ -6,7 +6,7 @@ import top.twindworld.lottery.common.Constants;
 import top.twindworld.lottery.common.Result;
 import top.twindworld.lottery.infrastructure.dao.IActivityDao;
 import top.twindworld.lottery.infrastructure.po.Activity;
-import top.twindworld.lottery.IActivityBooth;
+import top.twindworld.lottery.rpc.IActivityBooth;
 import top.twindworld.lottery.rpc.dto.ActivityDto;
 import top.twindworld.lottery.rpc.req.ActivityReq;
 import top.twindworld.lottery.rpc.res.ActivityRes;
