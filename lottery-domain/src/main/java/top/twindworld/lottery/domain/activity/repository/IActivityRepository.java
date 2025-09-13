@@ -1,10 +1,8 @@
 package top.twindworld.lottery.domain.activity.repository;
 
 import top.twindworld.lottery.common.Constants;
-import top.twindworld.lottery.domain.activity.model.vo.ActivityVO;
-import top.twindworld.lottery.domain.activity.model.vo.AwardVO;
-import top.twindworld.lottery.domain.activity.model.vo.StrategyDetailVO;
-import top.twindworld.lottery.domain.activity.model.vo.StrategyVO;
+import top.twindworld.lottery.domain.activity.model.req.PartakeReq;
+import top.twindworld.lottery.domain.activity.model.vo.*;
 
 import java.util.List;
 
@@ -53,5 +51,19 @@ public interface IActivityRepository {
      * @return              更新结果
      */
     boolean alterStatus(Long activityId, Enum<Constants.ActivityState> beforeState, Enum<Constants.ActivityState> afterState);
+    /**
+     * 查询活动账单信息【库存、状态、日期、个人参与次数】
+     * @param req 参与活动请求
+     * @return    活动账单
+     */
+    ActivityBillVO queryActivityBill(PartakeReq req);
+
+    /**
+     * 扣减活动库存
+     * @param activityId   活动ID
+     * @return      扣减结果
+     */
+    int subtractionActivityStock(Long activityId);
 
 }
+

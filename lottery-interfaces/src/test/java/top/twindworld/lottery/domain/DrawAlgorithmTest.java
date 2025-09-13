@@ -1,4 +1,4 @@
-package top.twindworld.lottery;
+package top.twindworld.lottery.domain;
 
 import org.junit.Before;
 import org.junit.Test;

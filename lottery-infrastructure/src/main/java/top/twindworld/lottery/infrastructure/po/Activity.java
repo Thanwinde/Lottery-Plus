@@ -40,6 +40,31 @@ public class Activity {
     // 修改时间
     private Date updateTime;
 
+    /**
+     * 库存剩余
+     */
+    private Integer stockSurplusCount;
+
+    private Long strategyId;
+
+    public Integer getStockSurplusCount() {
+        return stockSurplusCount;
+    }
+
+    public void setStockSurplusCount(Integer stockSurplusCount) {
+        this.stockSurplusCount = stockSurplusCount;
+    }
+
+    public Long getStrategyId() {
+        return strategyId;
+    }
+
+    public void setStrategyId(Long strategyId) {
+        this.strategyId = strategyId;
+    }
+
+
+
     public Long getId() {
         return id;
     }

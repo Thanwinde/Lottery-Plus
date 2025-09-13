@@ -1,5 +1,8 @@
 package top.twindworld.lottery.domain.activity.service.partake;
 
+import top.twindworld.lottery.domain.activity.model.req.PartakeReq;
+import top.twindworld.lottery.domain.activity.model.res.PartakeResult;
+
 /**
  * @description: 抽奖活动参与接口
  * @author: 小傅哥，微信：fustack
@@ -9,9 +12,6 @@ package top.twindworld.lottery.domain.activity.service.partake;
  */
 public interface IActivityPartake {
 
-    /**
-     * TODO：待开发活动参与接口
-     */
-    void doPartake();
+    PartakeResult doPartake(PartakeReq req);
 
 }
