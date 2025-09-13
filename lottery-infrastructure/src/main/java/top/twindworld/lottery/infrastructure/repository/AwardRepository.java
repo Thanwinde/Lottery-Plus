@@ -1,5 +1,4 @@
-package top.twindworld.lottery.domain.award.repository.impl;
-
+package top.twindworld.lottery.infrastructure.repository;
 
 import org.springframework.stereotype.Component;
 import top.twindworld.lottery.domain.award.repository.IAwardRepository;
